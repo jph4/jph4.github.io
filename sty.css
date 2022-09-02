@@ -12,7 +12,11 @@ a:hover   { color: darkorange; text-decoration: none; }
 h1        { color: darkslategray; text-align:center; }
 h2        { color: darkslategray; }
 
-.highlight{ color: darkslategray; font-weight:bold;}
+.highlight{ color: darkslategray; font-weight:bold; }
 .smaller  { font-size: 80%; }
 
-
+.left     { text-align:left; }
+.right    { text-align:right; }
+.center   { text-align:center; margin-left:auto; margin-right:auto; }
+.top      { vertical-align:top; }
+.middle   { vertical-align:middle; }
