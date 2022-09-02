@@ -1,0 +1,18 @@
+/* CSS for JPH web site.
+
+   Developer Team <jph@jphilton.com>
+ */
+
+body      { background-color: white; color: black; }
+
+a:link    { color: #0066bb; text-decoration: none; }
+a:visited { color: #003399; text-decoration: none; }
+a:hover   { color: darkorange; text-decoration: none; }
+
+h1        { color: darkslategray; text-align:center; }
+h2        { color: darkslategray; }
+
+.highlight{ color: darkslategray; font-weight:bold;}
+.smaller  { font-size: 80%; }
+
+
