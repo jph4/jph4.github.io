@@ -65,6 +65,64 @@
               <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
               <form>
                 <div class="mb-3">
+                  <select class="form-select form-select-lg mb-3" id="kycactype" aria-label="kycactype">
+                    <option selected="selected">Open this select menu</option>
+                    <option value="salar">Salary</option>
+                    <option value="sgpen">State Government Pension</option>
+                    <option value="emplo">Employee</option>
+                    <option value="cgpen">Central Government Pension</option>
+                    <option value="senio">Senior Citizen</option>
+                    <option value="minor">Minor</option>
+                    <option value="schol">Scholarship (Youth)</option>
+                    <option value="commo">Common</option>
+                    <option value="savin">Saving</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="kycactype" class="form-label">Account type</label>
+                </div>
+                <div class="mb-3">
+                  <select class="form-select form-select-lg mb-3" id="kycacform" aria-label="kycacform">
+                    <option selected="selected">Open this select menu</option>
+                    <option value="individual">Individual</option>
+                    <option value="joint">Joint</option>
+                    <option value="trust">Trust</option>
+                    <option value="association">Association</option>
+                    <option value="huf">HUF</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="kycacform" class="form-label">Account form</label>
+                </div>
+                <div class="mb-3">
+                  <select class="form-select form-select-lg mb-3" id="kycacins" aria-label="kycacins">
+                    <option selected="selected">Open this select menu</option>
+                    <option value="single">Single</option>
+                    <option value="any">Any one from the two account holders</option>
+                    <option value="firstor">First or survivor</option>
+                    <option value="anybody">Anybody</option>
+                    <option value="all">All jointly</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="kycacins" class="form-label">Account instruction</label>
+                </div>
+                <div class="mb-3">
+                  <label for="kyclname" class="form-label">Surname</label>
+                  <input type="text" class="form-control" id="kyclname">
+                </div>
+                <div class="mb-3">
+                  <label for="kycfname" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="kycfname">
+                </div>
+                <div class="mb-3">
+                  <label for="kycmname" class="form-label">Middle name</label>
+                  <input type="text" class="form-control" id="kycmname">
+                </div>
+                <div class="mb-3">
                   <label for="kycemail" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="kycemail" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
